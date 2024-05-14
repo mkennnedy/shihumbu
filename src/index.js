@@ -1,14 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "./style/flexboxgrid.min.css";
+import "./style/index.css";
+import "./style/style.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import "aos/dist/aos.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import "boxicons/css/boxicons.min.css";
+import "remixicon/fonts/remixicon.css";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
+ReactDOM.render(
+  <>
     <App />
-  </React.StrictMode>
+  </>,
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
